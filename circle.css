@@ -4,8 +4,10 @@ body{
     height: 100vh;
 
     display: flex; 
+    flex-direction: column; /*新加的元素会竖着往下排*/
     justify-content: center;
     align-items: center;
+    gap: 30px; /*新加的元素之间的间距*/
 }
 
 .circle{
@@ -32,4 +34,20 @@ body{
     background-color: #00BFFF;
     transform: scale(1.1);
     box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+}
+
+.reset-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid grey;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.reset-btn:hover{
+    background-color: grey;
+    color: white;
 }
