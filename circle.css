@@ -3,7 +3,6 @@ body{
     margin: 0;
     height: 100vh;
 
-    /* Center the circle */
     display: flex; 
     justify-content: center;
     align-items: center;
